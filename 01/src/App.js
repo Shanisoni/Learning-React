@@ -1,33 +1,25 @@
+import "./App.css";
 
-import './App.css';
-
-
-
-import Item  from './Component/Item'
-import ItemDate from './Component/ItemDate'
+import Item from "./Component/Item";
+import ItemDate from "./Component/ItemDate";
 
 function App() {
-  return ( 
+  return (
     <div id="root">
-      <Item name="Nirma" ></Item>
+      <Item name="Nirma"></Item>
       <ItemDate date="28" month="june" year="2024"></ItemDate>
 
-      <Item  name="Surf" ></Item>
-      <ItemDate date="27" month="Agust" year="2044" ></ItemDate>
+      <Item name="Surf"></Item>
+      <ItemDate date="27" month="Agust" year="2044"></ItemDate>
 
-      <Item  name="Sabun" ></Item>
-      <ItemDate date="29" month="july" year="2064" ></ItemDate>
-      
+      <Item name="Sabun"></Item>
+      <ItemDate date="29" month="july" year="2064"></ItemDate>
+
       <div className="App">
-  Hello there bhai logg...
-
-  Ram Ram bhai sarye ne 
+        Hello there bhaiedf logg... Ram Ram bhai sarye ne
+      </div>
     </div>
-
-    </div>
-    
   );
 }
 
 export default App;
-
