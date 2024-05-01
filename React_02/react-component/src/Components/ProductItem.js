@@ -12,10 +12,12 @@ const ProductItem = (props)  => {
 
             <ProductDate date =  {props.date}/>
 
-            <div className="product-item-description">
+            <div className="product-item__description">
                 <h2>{props.title}</h2>
             </div>
 
         </Card>
-    )
+    );
 }
+
+export default ProductItem;

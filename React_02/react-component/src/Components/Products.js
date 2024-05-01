@@ -1,4 +1,4 @@
-import ProductItem from './Components/ProductItem' ;
+import ProductItem from './ProductItem' ;
 import Card from './Card' ;
 
 import './Products.css' ;
