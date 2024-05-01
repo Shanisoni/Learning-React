@@ -19,7 +19,12 @@
 
  Hooks are the utility function in the react 
 
-and useState is one of the function  
+and useState is one of the function  .
+
+
+UseState returns two values 
+1 value of the variable 
+2nd function that updates the value of the variable 
 
  
 
