@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import Compo from './compi/Compo'
+import Comp from './compi/Comp'
+import Shanii from './compi/Shanii'
 
 
 function App() {
@@ -30,12 +33,69 @@ function App() {
 
     setCount(0);
    
+    
+  }
+
+  const response =  [{
+    ItemName : "Nirma",
+
+    ItemDate : "20",
+
+    Itemmonth : "July",
+
+    Itemyear : "2009",
+  },
+
+
+  {
+    ItemName : "SurfExel",
+
+    ItemDate : "27",
+
+    Itemmonth : "December",
+
+    Itemyear : "2002",
+  },
+
+
+  {
+    ItemName : "555",
+
+    ItemDate : "24",
+
+    Itemmonth : "August",
+
+    Itemyear : "2005"
 
   }
+];
 
   return(
 
+
+    <div>
+      <Comp name={response[0].ItemName} >
+        hELLO My Name is Shani Soni
+      </Comp>
+
+      <Compo day={response[0].Itemday} month={response[0].Itemmonth} year={response[0].Itemyear} ></Compo>
+
+
+      <Comp name={response[1].ItemName}></Comp>
+
+      <Compo day={response[1].Itemday} month={response[1].Itemmonth} year={response[1].Itemyear}></Compo>
+
+
+      <Comp name={response[2].ItemName}></Comp>
+
+      <Compo day={response[2].Itemday} month={response[2].Itemmonth} year={response[2].Itemyear}></Compo>
+
+      
+   
+    
+
     <div className="w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] flex-col gap-10">
+      
       <div className="text-[#0398d4] font-medium text-2xl "> Increment & Decrement </div>
 
       <div className="font-medium text-2xl bg-white flex justify-center gap-12 py-3 rounded-sm text-[25px] text-[#344151] ">
@@ -60,6 +120,7 @@ function App() {
       <button className="text-white font-medium text-2xl bg-[#0398d4] px-5 py-2 rounded-sm text-lg " onClick = {ResetHandler}>
          Reset 
         </button>
+    </div>
     </div>
 
   );
