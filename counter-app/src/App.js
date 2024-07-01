@@ -5,7 +5,23 @@ import Comp from './compi/Comp'
 import Shanii from './compi/Shanii'
 
 
+
+let a = 3 ;
+
+let msg = "";
+
+if( a > 5){
+  msg = " shani"
+}
+else { 
+  msg = "soni"
+}
+
+
 function App() {
+
+
+  
 
 
 
@@ -72,8 +88,14 @@ function App() {
 
   return(
 
+    
 
     <div>
+
+      <h1> {msg} </h1>
+
+
+
       <Comp name={response[0].ItemName} >
         hELLO My Name is Shani Soni
       </Comp>
