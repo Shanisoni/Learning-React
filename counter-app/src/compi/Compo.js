@@ -6,6 +6,7 @@ function shani(props) {
     const month = props.month;
 
     const year = props.year ;
+    
     return (
         <p className="Compo">
 
