@@ -57,13 +57,14 @@ function App() {
       ItemDate: "24",
 
       Itemmonth: "August",
-
+ 
       Itemyear: "2005",
     },
   ];
 
   return (
     <div>
+      <App2/>
       <NewComp/>
       <h1> {msg} </h1>
 
@@ -130,6 +131,8 @@ function App() {
   );
 }
 
+const App2 = () => <h1>bhai bhai Shani soni</h1>
+
 // var i = 1;
 
 // function App() {
@@ -151,3 +154,4 @@ function App() {
 // }
 
 export default App;
+export {App2};
