@@ -4,6 +4,7 @@ function shani(props) {
     const day = props.day;
 
     const month = props.month;
+    
 
     const year = props.year ;
     
@@ -16,7 +17,7 @@ function shani(props) {
 
 
             <span>  {year}  </span>
-            
+
             
         </p>
     )
