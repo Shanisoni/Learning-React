@@ -4,58 +4,67 @@ import React from 'react';
 
 import Products from './Components/Products' ;
 
-const App = () =>  { 
-
-  const products = [
-    {
-      id : 'p1' ,
-
-      title : 'Nirma' ,
-
-      amount : 100 , 
-
-      date : new Date(2021 , 8, 10)
-    } ,
-
-    {
-      id : 'p1' ,
-
-      title : 'Nirma' ,
-
-      amount : 100 , 
-
-      date : new Date(2021 , 8, 10)
-    },
-
-    {
-      id : 'p1' ,
-
-      title : 'Nirma' ,
-
-      amount : 100 , 
-
-      date : new Date(2021 , 8, 10)
-    },
-
-    {
-      id : 'p1' ,
-
-      title : 'Nirma' ,
-
-      amount : 100 , 
-
-      date : new Date(2021 , 8, 10)
-    },
-  ];
-
-  return (
-    <div>
-      <Products items = {products} />
-    </div>
-  );
-
-
+class App  extends React.Component
+{
+  render
 }
+
+
+
+
+
+// const App = () =>  { 
+
+//   const products = [
+//     {
+//       id : 'p1' ,
+
+//       title : 'Nirma' ,
+
+//       amount : 100 , 
+
+//       date : new Date(2021 , 8, 10)
+//     } ,
+
+//     {
+//       id : 'p1' ,
+
+//       title : 'Nirma' ,
+
+//       amount : 100 , 
+
+//       date : new Date(2021 , 8, 10)
+//     },
+
+//     {
+//       id : 'p1' ,
+
+//       title : 'Nirma' ,
+
+//       amount : 100 , 
+
+//       date : new Date(2021 , 8, 10)
+//     },
+
+//     {
+//       id : 'p1' ,
+
+//       title : 'Nirma' ,
+
+//       amount : 100 , 
+
+//       date : new Date(2021 , 8, 10)
+//     },
+//   ];
+
+//   return (
+//     <div>
+//       <Products items = {products} />
+//     </div>
+//   );
+
+
+// }
 
 // function App() {
 //   return (
