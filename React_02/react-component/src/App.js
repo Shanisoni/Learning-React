@@ -1,14 +1,40 @@
+
+// rcc for react class component 
+// rccp for React class proptype component 
+// rfc for React Function Component 
+// rfcp for React function component with proptype  
+
 import './App.css';
 
-import React from 'react';
+import React, {Component}  from 'react';
 
 import Products from './Components/Products' ;
 
-class App  extends React.Component
+
+class App  extends Component
 {
-  render
+  render(){
+
+    return(
+      <h1>Shani Soni</h1>
+    )
+
+  }
 }
 
+
+export function Shani(){
+  return(
+    <>
+    <div>
+      <h1>
+        I am from Ghaziabad 
+      </h1>
+    </div>
+    </>
+  )
+}
+ 
 
 
 
