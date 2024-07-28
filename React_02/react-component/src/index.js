@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App , {Shani} from './App';
 import Myclass from './Myclass';
+import Constructor from './Components/Constructor';
+import Events from './Events/Event';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-<App/> <Shani/> 
-<Myclass name = "Shani bhai" AGE = {24} />
+    <Constructor/>
+    <App/> 
+    <Shani/> 
+    <Myclass name = "Shani bhai" AGE = {24} />
+    <Events/>
 
 </>
 );
