@@ -5,11 +5,16 @@ import App , {Shani} from './App';
 import Myclass from './Myclass';
 import Constructor from './Components/Constructor';
 import Events from './Events/Event';
+import Binding from './BindingEvent/Binding';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
+    <div className=''>
+        <Binding/>
+    </div>
+    
     <Constructor/>
     <App/> 
     <Shani/> 

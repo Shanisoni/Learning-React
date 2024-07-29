@@ -8,8 +8,8 @@ import './App.css';
 
 import React, {Component}  from 'react';
 
-import Products from './Components/Products' ;
-import Constructor from './Components/Constructor';
+// import Products from './Components/Products' ;
+// import Constructor from './Components/Constructor';
 
 
 class App  extends Component
