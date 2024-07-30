@@ -20,3 +20,27 @@
 
 
 
+
+// Constructor   
+
+// so constructor hamara first phase hota h mounting ka 
+
+// isme do parts hote h mtlb do reason ki vajah se use kiya jata h \
+
+// 1 for initialiging the object 
+
+// 2 for biniding the event handlers 
+
+
+// we CAN not use APIS in Constructor,  
+
+// agr super nhi likhte h to this ka use nhi kr payenge constructor mr 
+
+
+
+// getDeriveedStateFromProps iska use tb krte h jb hme apna state props ki help se change krwana ho , 
+// mtlb state props pe depend kr rhi ho 
+
+// isme this ka use nhi kr skte h 
+
+
