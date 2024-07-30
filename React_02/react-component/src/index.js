@@ -6,6 +6,7 @@ import Myclass from './Myclass';
 import Constructor from './Components/Constructor';
 import Events from './Events/Event';
 import Binding from './BindingEvent/Binding';
+import Updating1 from './Updating1';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,10 @@ root.render(
     <div className=''>
         <Binding/>
     </div>
+
+    <Updating1/>
+
+    
     
     <Constructor/>
     <App/> 
