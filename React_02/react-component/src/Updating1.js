@@ -13,16 +13,7 @@ export default class Updating1 extends Component {
   }
 
 
-  shaniii = () => {
-    console.log("shani");
-    this.setState({
-
-
-     
-      Name : "Operating System"
-
-    })
-  }
+  
 
   
 
@@ -30,7 +21,7 @@ export default class Updating1 extends Component {
     return (
       <div>
         <Updating2 Name1={this.state.Name} />
-        <button type="button" onClick= {this.shaniii}>Change State</button>
+       
       </div>
     );
   }
