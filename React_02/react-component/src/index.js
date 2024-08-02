@@ -8,15 +8,20 @@ import Events from './Events/Event';
 import Binding from './BindingEvent/Binding';
 import Updating1 from './Updating1';
 
+import ShouldComponent from './ShouldComponent/ShouldComponent';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
+    <ShouldComponent  City="Hydrabad"/>
     <div className=''>
         <Binding/>
     </div>
 
     <Updating1/>
+
+    
 
     
     
