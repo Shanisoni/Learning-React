@@ -11,6 +11,9 @@ export default class Binding extends Component {
         this.state = {
             
             Name : 'Shani Soni' 
+
+
+            
         }
 
 
