@@ -21,6 +21,9 @@ export default class Binding extends Component {
 
     shani(){
         console.log( "shanni");
+
+
+        
         
         this.setState({
 
